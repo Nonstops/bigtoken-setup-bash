@@ -24,3 +24,7 @@ rm -rf bigtoken && mkdir -p bigtoken
 cd bigtoken
 curl -4sO 'https://raw.githubusercontent.com/Nonstops/bigtoken/master/bot.php'
 php bot.php
+clear
+echo -e "\n\n\nReport to the admin if any bus oj the scrip.\n\n thank you!"
+cd
+exit 1

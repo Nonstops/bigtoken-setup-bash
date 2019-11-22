@@ -1,6 +1,6 @@
 #!/bin/bash
-# CloudFlare WARP Client Config generator for WireGuard
-# Script by Bon-chan
+# Bigtoken Auto Bot
+# Script by Tuko Van
 clear
 
 if [ "$(uname -o)" != 'Android' ]; then
@@ -16,14 +16,13 @@ sleep 3
 
 cd
 apt update && apt upgrade -y
-apt install php python python2 wireguard-tools git nano curl wget -y
+apt install python wireguard-tools git nano curl wget -y
 pip install --upgrade pip
 pip install requests
 cd storage/shared
-rm -rf bigtoken && mkdir -p bigtoken
-cd WireGuard
-curl -4sO 'https://raw.githubusercontent.com/Nonstops/bigtoken/master/bot.php'
+rm -rf bigtoken
+git clone https://github.com/Nonstops/bigtoken.git
 clear
-echo -e "\n\nSuccessfully install the bigtoken bot\nYour config is located at /storage/emulated/0/bigtoken\n\n Type php bot.php"
+echo -e "\n\nSuccessfully Installation!\n\n Your config is located at /storage/emulated/0/bugtoken\n\n Type=> cd storage/shared/bigtoken php bot.php <=Press Enter!"
 cd
 exit 1

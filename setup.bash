@@ -16,7 +16,8 @@ sleep 3
 
 cd
 apt update && apt upgrade -y
-apt install python wireguard-tools git nano curl wget -y
+pkg install php -y
+apt install python python2 git nano curl wget -y
 pip install --upgrade pip
 pip install requests
 cd storage/shared

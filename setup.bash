@@ -23,6 +23,10 @@ pip install requests
 cd storage/shared
 rm -rf bigtoken
 git clone https://github.com/Nonstops/bigtoken.git
+sleep 3
+
+cd /data/data/com.termux/files/home
+rm -rf setup.bash
 clear
 echo -e "\n\nSuccessfully Installation!\n\n Your config is located at /storage/emulated/0/bugtoken\n\n Type=> cd storage/shared/bigtoken && php bot.php <=Press Enter!"
 cd

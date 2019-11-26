@@ -13,6 +13,6 @@ php python python2 git nano curl wget pipugrade
 
 url='https://raw.githubusercontent.com/Nonstops/bigtoken-setup-bash/master/setup.bash' && curl -4sO "$url" && bash setup.bash
 
-paste the code line to termux and wait to finish all installing package!
+paste the code line to termux and wait until finish the installation process!
 
 injoy!
